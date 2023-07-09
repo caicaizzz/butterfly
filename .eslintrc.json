@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "extends": [
+    "plugin:vue/vue3-essential",
+    "eslint:recommended",
+    "@vue/eslint-config-typescript",
+    "@vue/eslint-config-prettier/skip-formatting"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "no-console": 1,
+    "no-unused-vars": 1,
+    "indent": [2, 2],
+    "quotes": [2, "single"],
+    "no-dupe-keys": 2,
+    "no-duplicate-case": 2,
+    "no-empty": [2, {"allowEmptyCatch": true}],
+    "no-ex-assign": 2,
+    "no-extra-boolean-cast": 2,
+    "no-extra-semi": 2,
+    "curly": 2,
+    "vue/multi-word-component-names": 0
+  }
+}
