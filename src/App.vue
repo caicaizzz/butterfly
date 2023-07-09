@@ -14,12 +14,12 @@
   </el-container>
 </template>
 
-<script setup lang='ts'>
+<script setup lang="ts">
 import PageHeader from '@/components/PageHeader/index.vue'
 import PageFooter from '@/components/PageFooter/index.vue'
 </script>
 
-<style scoped lang='less'>
+<style scoped lang="less">
 .el-header {
   width: 100%;
   height: 100px;

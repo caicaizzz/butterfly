@@ -1,17 +1,12 @@
 <template>
-  <ul class='navList'>
-    <li
-      v-for='item in navList'
-      :key='item.label'
-      class='navItem'
-      @click='changeNav(item.name)'
-    >
+  <ul class="navList">
+    <li v-for="item in navList" :key="item.label" class="navItem" @click="changeNav(item.name)">
       {{ item.label }}
     </li>
   </ul>
 </template>
 
-<script setup lang='ts'>
+<script setup lang="ts">
 import { useRouter } from 'vue-router'
 
 interface NavItem {
@@ -39,7 +34,7 @@ const router = useRouter()
 const changeNav = (name: string) => router.push({ name })
 </script>
 
-<style scoped lang='less'>
+<style scoped lang="less">
 .navList {
   display: flex;
   justify-content: space-around;
