@@ -1,9 +1,9 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <PageHeader />
 </template>
 
 <script setup lang="ts">
-const msg = 'hello'
+import PageHeader from '@/components/PageHeader/index.vue'
 </script>
 
 <style scoped lang="less"></style>
